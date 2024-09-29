@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/index.css">
+    <title>Quiz!!</title>
+</head>
+<body>
+
+    
+    <script>
+        const domanda1 = "roma";
+        const domanda2 = "20";
+        const domanda3 = "destra";
+        const domanda4 = "italiano";
+        const domanda5 = "repubblica";
+        let segnapunti = 0;
+
+        alert("Ciao!! benvenuto in questo quiz");
+        alert("Rispondi a queste domande, il punteggio verrà mostrato alla fine.");
+        alert("Ti consigliamo di rispondere in maniera semplice e senza argomentare.")
+        alert("Buona fortuna giocatore!")
+
+        let risposta1 = prompt("Qual'e' la capitale dell'italia?");
+        if (risposta1 != null){
+            risposta1.toLowerCase;
+        }
+        if (risposta1 === domanda1){
+            segnapunti = segnapunti + 1;
+        }
+
+        let risposta2 = prompt("Quante sono le regioni dell'italia");
+        if (risposta2 != null){
+            risposta2.toLowerCase;
+        }
+        if (risposta2 === domanda2){
+            segnapunti = segnapunti + 1;
+        }
+
+        let risposta3 = prompt("su che lato si guida in italia?");
+        if (risposta3 != null){
+            risposta3.toLowerCase;
+        }
+        if (risposta3 === domanda3){
+            segnapunti = segnapunti + 1;
+        }
+
+        let risposta4 = prompt("che lingua si parla in italia?");
+        if (risposta4 != null){
+            risposta4.toLowerCase;
+        }
+        if (risposta4 === domanda4){
+            segnapunti = segnapunti + 1;
+        }
+
+        let risposta5 = prompt("che tipo di stato è litalia?");
+        if (risposta5 != null){
+            risposta5.toLowerCase;
+        }
+        if (risposta5 === domanda5){
+            segnapunti = segnapunti + 1;
+        }
+
+
+        alert("Eccoci qua!! Hai appena finito il tuo quiz!!!");
+        alert("Il tuo punteggio è stato:" + segnapunti)
+
+        alert("Grazie per aver partecipato")
+
+    </script>
+</body>
+</html>
